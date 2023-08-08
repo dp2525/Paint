@@ -1,7 +1,7 @@
+//Dhvani Thakorbhai Patel c0886416
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+
 
 let painting = false;
 let brushColor = 'black';

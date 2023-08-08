@@ -1,28 +1,31 @@
+<!--Dhvnani Thakorbhai Patel c0886416-->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Canvas Drawing</title>
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="C:\Users\DP\Desktop\Paint\style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Canvas Drawing</h1>
-        <canvas id="canvas" width="500" height="500"></canvas>
+        <h1>Let's Paint</h1>
+        <canvas id="canvas" width="1500" height="500"></canvas>
         <br><br>
-        <div class="colors">
-            <div class="color blue" data-color="blue"></div>
-            <div class="color black" data-color="black"></div>
-            <div class="color red" data-color="red"></div>
-            <div class="color yellow" data-color="yellow"></div>
+        <div class="tools">
+            <button class="btn btn-primary" id="blue">Blue</button>
+            <button class="btn btn-primary" id="black">Black</button>
+            <button class="btn btn-primary" id="red">Red</button>
+            <button class="btn btn-primary" id="yellow">Yellow</button>
+            <button class="btn btn-primary" id="eraser"><i class="fas fa-eraser"></i></button>
+            <div class="form-group">
+            </div>
         </div>
-        <br><br>
+        <br>
         <div class="slider">
-            <input type="range" min="2" max="15" value="5" id="brushSize">
+            <input type="range" min="2" max="40" value="5" id="brushSize">
         </div>
-        <br><br>
-        <button id="eraser"><i class="fas fa-eraser"></i> Eraser</button>
+        <br>
         <button id="clear"><i class="far fa-file"></i> Clear</button>
     </div>
 

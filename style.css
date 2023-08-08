@@ -1,11 +1,22 @@
-  canvas {
-            border: 1px solid black;
-        }
-        .tools {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        .tools > * {
-            margin-right: 10px;
-        }
+/*Dhvani Thakorbhai Patel c0886416**/
+body {
+    background: linear-gradient( #F78FAD, #FDE882);
+ }
+h1{
+    text-align: center;
+
+}
+ canvas {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.tools > * {
+  margin-right: 10px;
+}

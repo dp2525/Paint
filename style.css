@@ -1,0 +1,11 @@
+  canvas {
+            border: 1px solid black;
+        }
+        .tools {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .tools > * {
+            margin-right: 10px;
+        }
